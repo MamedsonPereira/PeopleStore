@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Righteous&family=Rubik+Moonrocks&family=Sarala&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%; 
+    background: linear-gradient(68.15deg, #778899 30.62%, #4F4F4F 85.61%)
+}
+.japones{
+    padding-top: 200px;
+    padding-left: 1500px;
+    font-family: impact, sans-serif;
+    font-size: 40px;
+    color: #aa95e4;
+}
+.russo{
+    padding-top: 20px;
+    padding-left: 480px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #4aee9c;
+}
+.frances{
+    padding-top: 50px;
+    padding-left: 1280px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #e490ac;
+}
+.portugues{
+    padding-top: 70px;
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
+    text-align: center;
+    color:#192b46;
+}
+.ingles{
+    padding-top: 50px;
+    padding-left: 220px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #6b2626;
+}
+.espanhol{
+    padding-top: 20px;
+    padding-left: 800px;
+    font-family: 'Sarala', sans-serif;
+    font-size: 20px;
+    color: #efff61;
+}
+.alemao{
+    padding-top: 40px;
+    padding-left: 1600px;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 25px;
+    color: #eb4f12;
+}
+.italiano{
+    padding-top: 10px;
+    padding-left: 1000px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: #4056a0;
+}
+.cabecalho{
+    position: fixed;
+    background: #192b46;
+    padding: 20px;
+    width: 100%;
+    height: 80px;
+}
+.cabecalho h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    color: whitesmoke;
+    margin: 0;
+}
+.cabecalho span{
+    color: #4b6c9c;
+    text-align: center;
+}
+.barra-lateral{
+    height: 100%;
+    width: 170px;
+    position: fixed;
+    padding-top: 30px;
+    margin-top: 80px;
+    background-color: #1f3453;
+    transition: 0.3s;
+    transition-property: left;
+}
+.barra-lateral img{
+    width: 135px;
+    height: 135px;
+    text-align: center;
+}
+.barra-lateral a{
+    font-family: 'Poppins', sans-serif;;
+    color: whitesmoke;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    transition-property: background;
+    padding-left: 20px;
+}
+.barra-lateral a:hover{
+    background: #55bae9;
+}
+.barra-lateral .redes-sociais img{
+    align-self: flex-end;
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.barra-lateral ion-icon{
+    padding-right: 15px;
+}
+article{
+    display: inline-block;
+    padding-top: 85px;
+    padding-left: 180px;
+    text-align: center;
+    width: 1300px;
+}
+article img{
+    width: 1000px;
+    height: 600px;
+    text-align: center;
+}
+aside{
+    display: inline-block;
+    padding-top: 85px;
+    text-align: center;
+    width: 450px;
+    padding-left: 100px;
+}
+aside img{
+    width: 350px;
+    height: 200px;
+}
+aside h1{
+    padding-top: 30px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 35px;
+    color: whitesmoke;
+}
+aside h3{
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500; 
+    font-size: 25px;
+    color: whitesmoke;
+}
+footer p{
+    padding-top: 40px;
+    color: #1f3453 ;
+    font-family: 'Sarala', sans-serif;
+    padding-left: 180px;
+}
+.bem-vindos h1{
+    font-family: 'Rubik Moonrocks', cursive;
+    text-align: center;
+    padding-top: 95px;
+    color: #2b3344;
+    font-size: 30px;
+}
+.bem-vindos h2{
+    font-family: 'Rubik Moonrocks', cursive;
+    text-align: center;
+    color: #232935;
+    font-size: 50px;
+}
+.loja{
+    padding-top: 85px;
+    padding-left: 165px;
+    padding-right: 165px;
+    text-align: center;
+}
+.loja img{
+    margin-top: 60px;
+    width: 300px;
+    height: 350px;
+}
+.formulario{
+    padding-top: 150px;
+    padding-left: 165px;
+    padding-right: 165px;
+    text-align: center;
+}
+.titulo{
+    padding-top: 30px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: whitesmoke;
+    text-align: center;
+}
+.titulo2{
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500; 
+    font-size: 30px;
+    color: whitesmoke;
+    text-align: center;
+}
+.titulo3{
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    color:whitesmoke;
+    text-align: center;
+}
+.paragrafo{
+    padding-top: 15px;
+    font-family: 'Sarala', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+.people{
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+.store{
+    color: #37537c;
+    font-family: 'Poppins', sans-serif;
+}
+.produto{
+    font-family: 'Sarala', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+.sub-texto{
+    font-family: 'Sarala', sans-serif;
+    color: whitesmoke;
+    font-size: x-small;
+    text-align: center;
+}
+.especial{
+    font-family: 'Sarala', sans-serif;
+    color: whitesmoke;
+    background-image: url(gif.gif);
+    text-align: center;
+    margin-top: 100px;
+}
+.seta img{
+    margin-top: 0;
+    width: 50px;
+    height: 50px;
+}
+.txt-contato{
+    padding-top: 245px;
+    font-family: 'Sarala', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+label #barra-lateral-botao{
+    z-index: 1;
+    position: fixed;
+    left: 10px;
+    color: whitesmoke;
+    font-size: 50px;
+    margin: 15px 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+label #barra-lateral-botao:hover{
+    color: #55bae9;
+}
+#check:checked ~ .barra-lateral{
+    left: -125px;
+}
+#check:checked ~ .barra-lateral a span{
+    display: none;
+}#check:checked ~ .barra-lateral a{
+    font-size: 20px;
+    margin-left: 115px;
+    width: 55px;
+}
+#check{
+    display: none;
+}
